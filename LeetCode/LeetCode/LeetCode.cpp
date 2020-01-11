@@ -8,9 +8,9 @@
 using namespace std;
 int main()
 {
-	vector<int> vi{ 1,2,3,4,5,6,7 };
-	auto result = twoSum(vi, 22);
-	for_each(result.cbegin(), result.cend(), [](int n) {cout << n << " "; });
+	using namespace problem3;
+	cout<<lengthOfLongestSubstring("abcabcbb");
+
 	cout << endl;
 	cout << "--------------END------------" << endl;
 }
